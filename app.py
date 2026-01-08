@@ -7,8 +7,7 @@ from PyPDF2 import PdfReader
 try:
     api_key = st.secrets["GEMINI_API_KEY"]
 except:
-    api_key = "BURAYA_GECICI_OLARAK_ANAHTARINIZI_YAZABILIRSINIZ"
-
+    api_key = "AIzaSyDRQ4FGai8-p_tw1h_ZCD5FHjV6TrIjnr8"
 genai.configure(api_key=api_key)
 
 # --- PDF OKUMA FONKSİYONU ---
